@@ -46,6 +46,7 @@ const App = () => {
                             /* Add ExpenseList component here */
                              //ExpenseList component
                              <div className='col-sm'>
+                                <h2>Allocation</h2>
                              <ExpenseList />
                              </div>
                         }         
@@ -62,6 +63,7 @@ const App = () => {
                             /* Add AllocationForm component here under */
                             //AllocationForm component
                             <div className='col-sm'>
+                                 <h2>Change Allocation</h2>
                             <AllocationForm />
                             </div>
                         }        
